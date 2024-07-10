@@ -1,0 +1,99 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["My pleasure", "You're Welcome"],
+         "context": [""]
+        },
+        {"tag": "query",
+         "patterns": ["What is BVEC?","BVEC","Barak Valley Engineering College"],
+         "responses": ["Barak Valley Engineering College is the first state government engineering college in the Barak valley region of Assam and it is the fifth state engineering college. The noble initiative for setting up this engineering college was taken in the year of 2009 by the Government of Assam and started its full fledged operation in 2017 under the purview of Directorate of Technical Education (DTE), Assam."],
+         "context": [""]
+        }, 
+        {
+        "tag":"dept",
+        "patterns":["What are the Departments?","dept","what dept do college offers?"],
+        "responses": ["The College offers four depatments, CSE, ME, ETE and Civil."],
+        "context": [""]
+        },
+        {
+        "tag":"faculty",
+        "patterns":["Who are the faculty","faculty","Teachers","mentors","who are the teachers"],
+        "responses":[""],
+        "context": [""]
+        },
+        {
+        "tag":"location",
+        "patterns":["what is the location of the college?","where is the college?","Location of BVEC","How to reache BVEC?"],
+        "responses":[" The campus is situated in Nirala, south-east part of Karimganj district of Assam. The college campus is spread approximately across 60 bighas of land area, surrounded by natural foot hills and lush greenery. The college campus is connected to the National Highway by PWD rural roads. It is about 22 kms and 15 kms away from Badarpur ASTC bus station and Badarpur railway junction respectively. The closest airport is Kumbhirgram airport Silchar, which is at a distance of around 60 km from the college campus."],
+        "context": [""]
+        },
+        {
+        "tag":"principal",
+        "patterns":["Who is the principal of the college","principal"],
+        "responses":["Dr. Diganta Goswami, Email ID : principal@bvec.ac.in, Contact: +919864022340"],
+        "context": [""]
+        },
+        {
+        "tag":"tnp",
+        "patterns":["give me the details about tnp","placements","show details about placements","internships and placements","what is the placements","campus placements"],
+        "responses":["The institute was set up with a motto of enhancing the academic as well as the holistic development of student fraternity. Barak Valley Engineering College aims to provide the ambience and culture for newer ideas to flourish and make the student acquaint with the modern cutting edge technology so that they transform into leaders of tomorrow.The endeavor of the teaching fraternity has always been overall development of the students so that innovative thinking can be embedded in the minds of young students. Furthermore, this Institute has emphasized on Industry Academia Collaboration and as a result of which we have Memorandum of Understanding (MoU) with Ziroh Labs, C-DAC, MSME to name a few where students can be exposed to the latest trends and techniques prevailing in industry along with curriculum. The institute tasted quite a success in terms of Placement Scenario as we had a large number of Multi-National Companies and Tech Giants recruiting our students along with some of the best startups of India. A few names to be spelt out are TCS, Cognizant, Mind tree, ATLAN along with many others. The highest package recorded till date is 10 LPA with an average package ranging from 3.6 LPA to 4.2 LPA every year."],
+        "context": [""]
+        },
+        {
+        "tag":"cse",
+        "patterns":["cse","cs","computer science and engineering","give information on cse dept","give information about computer science and engineering dept"],
+        "responses":["The Department of Computer Science and Engineering was started in April, 2017. The department currently offers B. Tech degree in Computer Science and Engineering discipline with an annual intake capacity of 60 students. The department is having qualified,dynamic faculties along with well structured classroom and laboratory resources that helps the student to have a better understanding of the core concepts of Computer Science & Engineering."],
+        "context": [""]
+        },
+        {
+        "tag":"ete",
+        "patterns":["ete","electronics","Electronics & TeleCommunication Engineering","give information on ete dept","give information about Electronics & TeleCommunication Engineering"],
+        "responses":["The Department of Electronics and TeleCommunication Engineering was started in the year 2017 and it offers B.Tech degree with an annual intake capacity of 60 students. The course at the undergraduate level is at par with the AICTE curriculum, and is designed in such a manner so that various areas of Electronics and Communication Engineering are well covered with a better understanding of the concepts at the core level."],
+        "context": [""]
+        },
+        {
+        "tag":"me",
+        "patterns":["me","mechanical engineering","give information on me dept","give information about mechanical engineering dept"],
+        "responses":["The Department of Mechanical Engineering has been started in the year 2020. Currently, the department offers a Bachelor of Technology (B.Tech) degree under Assam Science & Technology University (ASTU), Guwahati, with an annual intake capacity of 60 students. The department follows a syllabus that is at par with AICTE approved curriculum. The students are made familiar with the fundamental concepts of production, manufacturing, design, thermal and related core subjects in order to help themunderstand the real essence of mechanical engineering."],
+        "context": [""]
+        },
+        {
+        "tag":"ce",
+        "patterns":["ce","civil engineering","give information on ce dept","give information about civil engineering dept"],
+        "responses":["The Civil Engineering Department started its journey in August 2020. Currently, the department offers a Bachelor of Technology (B.Tech) degree under Assam Science & Technology University (ASTU), Guwahati, with an annual intake capacity of 60 students.The Department aims at providing concepts of design, construction, and maintenance of the physical and naturally built environment, including works such as bridges, roads, canals, dams, and buildings"],
+        "context": [""]
+        },
+        {
+        "tag":"clubs",
+        "patterns":["clubs","give information on different clubs","give information about societies and clubs"],
+        "responses":["BVEC comprises different clubs and societies to promote co-curricular activities and learning. Out of these some famous clubs are BVEC Code Club, Art Club,Debate and Literary society, robotronic club, Quiz Club, ansel and many more etc."],
+        "context": [""]
+        },{
+        "tag":"respl",
+        "patterns":["resplandor","give information on college fest","college fest","give information on resplandor","what is its fest"],
+        "responses":["Resplandor is the annual techno-cultural fest of Barak Valley Engineering College, Nirala. Resplandor is an effort to enthuse the spirit of technical and cultural exuberance amongst the youth of today. It's a common platform where in students can showcase their talents and visions. Resplandor encompasses a wide range of events covering all the areas of interest of the youth of this part of the nation, and the variety of the events is something w e have always been proud of. From science and technology to entertainment, from information technology to literature pursuits, all the events at Resplandor have constantly set new benchmarks of excellence in organization and participation."],
+        "context": [""]
+        },
+        {
+        "tag":"intensity",
+        "patterns":["intensity","give information on college annual sports","annual sportst","give information on intensity","what is its annual sports week"],
+        "responses":["At BVEC, we believe in nurturing both academic excellence and extracurricular activities. Intensity, our annual games fest, is a testament to our commitment to holistic development. It is a celebration of sportsmanship, teamwork, and camaraderie. It brings together students from various disciplines, fostering a sense of unity and competition."],
+        "context": [""]
+        },
+        {
+        "tag":"placement",
+        "patterns":["placements","campus placements","show details about placements"],
+        "responses":["At BVEC, we have a strong and promising placement scenario. Our past recruiters are CDAC, Sony, Infosys, capegimini, cognizant, IOC, Atlan and many more."],
+        "context": [""]
+        }
+    ]}
